@@ -1,0 +1,13 @@
+<additional>
+    <e1Detector id="det_N_5m" lane="N_in_0" pos="-5" freq="60" file="sensor_output.xml"/>
+    <e1Detector id="det_N_50m" lane="N_in_0" pos="-50" freq="60" file="sensor_output.xml"/>
+    
+    <e1Detector id="det_S_5m" lane="S_in_0" pos="-5" freq="60" file="sensor_output.xml"/>
+    <e1Detector id="det_S_50m" lane="S_in_0" pos="-50" freq="60" file="sensor_output.xml"/>
+
+    <e1Detector id="det_E_5m" lane="E_in_0" pos="-5" freq="60" file="sensor_output.xml"/>
+    <e1Detector id="det_E_50m" lane="E_in_0" pos="-50" freq="60" file="sensor_output.xml"/>
+
+    <e1Detector id="det_W_5m" lane="W_in_0" pos="-5" freq="60" file="sensor_output.xml"/>
+    <e1Detector id="det_W_50m" lane="W_in_0" pos="-50" freq="60" file="sensor_output.xml"/>
+</additional>
