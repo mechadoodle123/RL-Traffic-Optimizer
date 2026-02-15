@@ -1,0 +1,78 @@
+<routes>
+
+    <!-- ============================= -->
+    <!-- Vehicle Type -->
+    <!-- ============================= -->
+    <vType id="car"
+           accel="1.0"
+           decel="4.5"
+           sigma="0.5"
+           length="5"
+           maxSpeed="13.9"
+           guiShape="passenger"/>
+
+
+    <!-- ============================= -->
+    <!-- NORTH <-> SOUTH FLOWS -->
+    <!-- ============================= -->
+
+    <flow id="north_to_south_1"
+          type="car"
+          begin="0"
+          end="2000"
+          number="200"
+          from="A0A1"
+          to="B1B0"/>
+
+    <flow id="south_to_north_1"
+          type="car"
+          begin="0"
+          end="2000"
+          number="200"
+          from="B1B0"
+          to="A0A1"/>
+
+
+    <!-- ============================= -->
+    <!-- EAST <-> WEST FLOWS -->
+    <!-- ============================= -->
+
+    <flow id="west_to_east_1"
+          type="car"
+          begin="0"
+          end="2000"
+          number="200"
+          from="A0B0"
+          to="A1B1"/>
+
+    <flow id="east_to_west_1"
+          type="car"
+          begin="0"
+          end="2000"
+          number="200"
+          from="A1B1"
+          to="A0B0"/>
+
+
+    <!-- ============================= -->
+    <!-- EXTRA RANDOM TRAFFIC (light) -->
+    <!-- ============================= -->
+
+    <flow id="diag_1"
+          type="car"
+          begin="200"
+          end="1800"
+          number="100"
+          from="A0A1"
+          to="A1B1"/>
+
+    <flow id="diag_2"
+          type="car"
+          begin="200"
+          end="1800"
+          number="100"
+          from="B1B0"
+          to="B0A0"/>
+
+</routes>
+
